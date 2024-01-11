@@ -306,7 +306,7 @@ section{
 
   .products .box-container .box {
     position: relative;
-    background: #f3f3f3;
+    background: #be9166;
     text-align: center;
     overflow: hidden;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
@@ -328,7 +328,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgba(243, 243, 243, 0.8);
+    background: rgba(128, 53, 23, 0.7);
     gap: 1rem;
   }
 
