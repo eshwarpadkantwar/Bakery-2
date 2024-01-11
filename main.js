@@ -1,23 +1,27 @@
-let currentIndex = 0;
-const slides = document.querySelectorAll('.slide');
+let navbar = document.querySelector('.navbar');
 
-function next() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    updateSlides();
+document.querySelector('#menu-btn').onclick = () => {
+    navbar.classList.toggle('active');
 }
 
-function prev() {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    updateSlides();
+window.onscroll = () => {
+    navbar.classList.remove('active');
 }
 
-function updateSlides() {
-    slides.forEach((slide, index) => {
-        slide.classList.toggle('active', index === currentIndex);
-    });
+let slides = document.querySelectorAll('.home .slides-container .slide');
+let index = 0;
+
+function next(){
+    slides[index].classList.remove('active');
+    index = (index + 1) % slides.length;
+    slides[index].classList.add('active');
 }
 
-
+function prev(){
+    slides[index].classList.remove('active');
+    index = (index - 1 + slides.length) % slides.length;
+    slides[index].classList.add('active');
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     // Add smooth scroll behavior to all anchor links
