@@ -51,9 +51,10 @@ section{
     background-size:cover;
     background-position: center;
     text-align: center;
-    padding-top: 12rem;
+    padding-top: 2rem;
     padding-bottom: 8rem;
     border-bottom: 0.1rem solid rgba(0,0,0,0.7);
+    
 }
 
 .heading h1{
@@ -793,6 +794,11 @@ section{
     #menu-btn{
         display: inline-block;
     }
+
+    .heading{
+        height: 150px;
+    }
+
     .header .navbar{
         position:absolute;
         top: 99%;

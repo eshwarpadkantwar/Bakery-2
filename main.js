@@ -41,3 +41,20 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+
+
+// Add click event listeners to the icons
+document.getElementById('phone-icon').addEventListener('click', function() {
+    window.open('tel:+911234567890', '_blank'); // Replace with your actual phone number
+});
+
+document.getElementById('email-icon').addEventListener('click', function() {
+    window.open('mailto:ksbakery@gmail.com', '_blank'); // Replace with your actual email address
+});
+
+document.getElementById('map-icon').addEventListener('click', function() {
+    // Replace with the actual latitude and longitude of your location
+    window.open('https://t.ly/j5I1Y', '_blank');
+});
