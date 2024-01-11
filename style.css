@@ -5,7 +5,7 @@
 }
 
 body{
-    background:#B43F11;
+    background:#be9166;
 }
 
 *{
@@ -47,7 +47,7 @@ section{
 }
 
 .heading{
-    background: url("img/heading-bg.jpg") no-repeat;
+    background: url("img/heading-bg6.png") no-repeat;
     background-size:cover;
     background-position: center;
     text-align: center;

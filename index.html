@@ -17,23 +17,23 @@
 <!-- Navbar -->
 
 <header class="header">
-    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> cake </a>
+    <a href="#home" class="logo">KS Bakery </a>
 
     <nav class="navbar">
-        <a href="#">Home</a>
-        <a href="#">Shop</a>
-        <a href="#">About</a>
-        <a href="#">Review</a>
-        <a href="#">Blog</a>
-        <a href="#">Contact</a>
+        <a href="#home">Home</a>
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#review">Review</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
     </nav>
 
-    <div class="icons">
+    <!-- <div class="icons">
         <div id="menu-btn" class="fas fa-bars"></div>
         <div id="search-btn" class="fas fa-search"></div>
         <div id="cart-btn" class="fas fa-shopping-cart"></div>
         <div id="login-btn" class="fas fa-user"></div>
-    </div>
+    </div> -->
 
 
 </header>
@@ -47,7 +47,7 @@
             <div class="content">
                 <span>Have a Cake-A-Licious</span>
                 <h3>upto 50% off</h3>
-                <a href="#" class="btn">Shop Now</a>
+                <a href="#products" class="btn">Shop Now</a>
             </div>
             <div class="img">
                 <img decoding="async" src="img/home-img-1.png" alt="">
@@ -58,7 +58,7 @@
             <div class="content">
                 <span>Have a Cake-A-Licious</span>
                 <h3>upto 50% off</h3>
-                <a href="#" class="btn">Shop Now</a>
+                <a href="#products" class="btn">Shop Now</a>
             </div>
             <div class="img">
                 <img decoding="async" src="img/home-img-2.png" alt="">
@@ -69,7 +69,7 @@
             <div class="content">
                 <span>Have a Cake-A-Licious</span>
                 <h3>upto 50% off</h3>
-                <a href="#" class="btn">Shop Now</a>
+                <a href="#products" class="btn">Shop Now</a>
             </div>
             <div class="img">
                 <img decoding="async" src="img/home-img-3.png" alt="">
@@ -78,8 +78,7 @@
 
     </div>
     <div id="next-slide" class="fas fa-angle-right" onclick="next()"></div>
-    <div id="prev-slide" class="fas fa-angle-left" onclick="next()"></div>
-
+    <div id="prev-slide" class="fas fa-angle-left" onclick="prev()"></div>
 </section>
 
 <!-- Banner Section -->
@@ -91,7 +90,7 @@
         <div class="content">
         <span>limited sales</span>
         <h3>upto 50% off</h3>
-        <a href="#" class="btn">shop now</a>
+        <a href="#products" class="btn">shop now</a>
     </div>
     </div>
 
@@ -100,7 +99,7 @@
         <div class="content">
         <span>limited sales</span>
         <h3>upto 50% off</h3>
-        <a href="#" class="btn">shop now</a>
+        <a href="#products" class="btn">shop now</a>
     </div>
     </div>
 
@@ -109,7 +108,7 @@
         <div class="content">
         <span>limited sales</span>
         <h3>upto 50% off</h3>
-        <a href="#" class="btn">shop now</a>
+        <a href="#products" class="btn">shop now</a>
     </div>
     </div>
 
@@ -118,37 +117,37 @@
 
 <!-- Categories -->
 
-<div class="heading">
-    <h1>our shop</h1>
+<div class="heading" id="products">
+    <h1>Our Products</h1>
     </div>
 
 <section class="category">
 
-<h1 class="title"> our <span>category</span> <a href="#">view all >></a> </h1>
+<h1 class="title"> our <span>category</span>  </h1>
 
 <div class="box-container">
 
-    <a href="#" class="box">
+    <a href="#products" class="box">
         <img decoding="async" src="img/cat-1.jpg" alt="">
         <h3>fresh cupcake</h3>
     </a>
 
-    <a href="#" class="box">
+    <a href=#products" class="box">
         <img decoding="async" src="img/cat-2.jpg" alt="">
         <h3>cookies</h3>
     </a>
 
-    <a href="#" class="box">
+    <a href=#products" class="box">
         <img decoding="async" src="img/cat-3.jpg" alt="">
         <h3>brown bread</h3>
     </a>
 
-    <a href="#" class="box">
+    <a href=#products" class="box">
         <img decoding="async" src="img/cat-4.jpg" alt="">
         <h3>Dark chocolate</h3>
     </a>
 
-    <a href="#" class="box">
+    <a href="#products" class="box">
         <img decoding="async" src="img/cat-5.jpg" alt="">
         <h3>Wheat</h3>
     </a>
@@ -161,12 +160,187 @@
 
 <!-- Products -->
 
-<section class="products">
+<section class="products" >
 
-    <h1 class="title"> our <span>products</span> <a href="#">view all >></a> </h1>
+    <h1 class="title"> our <span>products</span>  </h1>
 
     <div class="box-container">
 
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="img/product-1.jpg" target="_blank" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>berries citrus fruits cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>resh mellow sp color cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Rose color sparkel cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry nutella cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>green bread spar cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>red berries chocolate cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry red spar cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>dark chocolate nutella cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
         <div class="box">
             <div class="icons">
                 <a href="#" class="fas fa-shopping-cart"></a>
@@ -323,7 +497,182 @@
 
         <div class="box">
             <div class="icons">
+                <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>dark chocolate nutella cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="icons">
                 <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>berries citrus fruits cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>resh mellow sp color cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Rose color sparkel cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-4.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry nutella cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>green bread spar cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>red berries chocolate cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+            </div>
+            <div class="img">
+                <img decoding="async" src="img/product-7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>strawberry red spar cake</h3>
+                <div class="price">$19.99</div>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <!-- <a href="#" class="fas fa-shopping-cart"></a> -->
                 <a href="#" class="fas fa-heart"></a>
                 <a href="#" class="fas fa-eye"></a>
             </div>
@@ -347,7 +696,7 @@
 
 <!-- About us -->
 
-<div class="heading">
+<div class="heading" id="about">
     <h1>About us</h1>
     </div>
 
@@ -371,12 +720,12 @@
 
 <!-- Gallery -->
 
-<section class="gallery">
-    <h1 class="title"> our <span>gallery</span> <a href="#">view all >></a> </h1>
+<section class="gallery" id="gallery">
+    <h1 class="title"> our <span>gallery</span> </h1>
     <div class="box-container">
 
         <div class="box">
-            <img decoding="async" src="img/gallery-img-1.jpg" alt="">
+            <img decoding="async" src="img/picc-1.png" alt="">
             <div class="icons">
                 <a href="#" class="fas fa-eye"></a>
                 <a href="#" class="fas fa-heart"></a>
@@ -385,7 +734,7 @@
         </div>
 
         <div class="box">
-            <img decoding="async" src="img/gallery-img-2.jpg" alt="">
+            <img decoding="async" src="img/picc-2.png" alt="">
             <div class="icons">
                 <a href="#" class="fas fa-eye"></a>
                 <a href="#" class="fas fa-heart"></a>
@@ -394,7 +743,7 @@
         </div>
 
         <div class="box">
-            <img decoding="async" src="img/gallery-img-3.jpg" alt="">
+            <img decoding="async" src="img/picc-3.png" alt="">
             <div class="icons">
                 <a href="#" class="fas fa-eye"></a>
                 <a href="#" class="fas fa-heart"></a>
@@ -403,7 +752,7 @@
         </div>
 
         <div class="box">
-            <img decoding="async" src="img/gallery-img-4.jpg" alt="">
+            <img decoding="async" src="img/picc-4.png" alt="">
             <div class="icons">
                 <a href="#" class="fas fa-eye"></a>
                 <a href="#" class="fas fa-heart"></a>
@@ -412,7 +761,7 @@
         </div>
 
         <div class="box">
-            <img decoding="async" src="img/gallery-img-5.jpg" alt="">
+            <img decoding="async" src="img/picc-5.png" alt="">
             <div class="icons">
                 <a href="#" class="fas fa-eye"></a>
                 <a href="#" class="fas fa-heart"></a>
@@ -433,7 +782,7 @@
 
 <!-- Client Review -->
 
-<div class="heading">
+<div class="heading" id="review">
     <h1>client's review</h1>
 </div>
 
@@ -540,7 +889,7 @@
 
 <!-- Blogs -->
 
-<div class="heading">
+<!-- <div class="heading">
     <h1>our blogs</h1>
 </div>
 
@@ -639,15 +988,15 @@
 </div>
 
 </div>
-</section>
+</section> -->
 
 
 
-<div class="heading">
+<div class="heading" id="contact">
     <h1>Contact us</h1>
 </div>
 
-<section class="contact">
+<section class="contact" >
     <div class="icons-container">
 
         <div class="icons">
@@ -667,7 +1016,7 @@
         <div class="icons">
             <i class="fas fa-map-marker-alt"></i>
             <h3>our address</h3>
-            <p>mumbai, india - 401203</p>
+            <p>Near Police Quarters Bus stop, Krishnanandanagar, Nandini Layout, Bengaluru, Karnataka 560096</p>
         </div>
 
     </div>
@@ -686,25 +1035,26 @@
                <textarea placeholder=" your message" cols="30" rows="10"></textarea>
                <input type="submit" value="send message" class="btn">
          </form>
-         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462560.3011806427!2d54.947543798608436!3d25.076381472700536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sin!4v1642496355732!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.278715794622!2d77.5391324738111!3d13.01791491386374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dd57c998629%3A0x99ac320571e6eefa!2sKS%20Bakery%20And%20Sweets!5e0!3m2!1sen!2sin!4v1704961691809!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
      </div>
 
 </section>
 
 <div class="space"></div>
 
-
-
+<!-- Footer -->
+<a href="#home" >
+<div style="cursor: pointer; background: rgb(206, 185, 118);"><h2 style="text-align: center; color: black;">Back to top</h2></div></a>
 <section class="footer">
     <div class="box-container">
         <div class="box">
             <h3>quick links</h3>
-        <a href="#"> <i class="fas fa-arrow-right"></i> Home</a>
-        <a href="#"> <i class="fas fa-arrow-right"></i>Shop</a>
-        <a href="#"> <i class="fas fa-arrow-right"></i>About</a>
-        <a href="#"> <i class="fas fa-arrow-right"></i> Review</a>
-        <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a>
-        <a href="#"> <i class="fas fa-arrow-right"></i>Contact</a>
+        <a href="#home"> <i class="fas fa-arrow-right"></i> Home</a>
+        <a href="#products"> <i class="fas fa-arrow-right"></i>Products</a>
+        <a href="#about"> <i class="fas fa-arrow-right"></i>About</a>
+        <!-- <a href="#"> <i class="fas fa-arrow-right"></i> Review</a>
+        <a href="#"> <i class="fas fa-arrow-right"></i>Blog</a> -->
+        <a href="#contact"> <i class="fas fa-arrow-right"></i>Contact</a>
         </div>
 
         <div class="box">
@@ -728,7 +1078,7 @@
         <div class="box">
             <h3>newsletter</h3>
             <p>subscribe for latest update</p>
-            <form action="">
+            <form action="https://formsubmit.co/johnjacksoncarter@gmail.com" method="POST">
             <input type="email" placeholder="enter your email address">
             <input type="submit" value="subscribe" class="btn">
             </form>
@@ -737,7 +1087,7 @@
     </div>
 </section>
 
-<section class="credit">created by Eshwar Padkantwar|| all rights reserved</section>
+<section class="credit">created with by ❤️ Eshwar Padkantwar || All rights reserved</section>
 
 
 
