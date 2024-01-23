@@ -2,10 +2,15 @@
 
 :root{
     --brown:#833517;
+    --green: #568203;
+    --chocolate: #D2691E;
+    --yellow: #dfca12;
+    --lust:#E62020;
 }
 
 body{
-    background:#be9166;
+    /* background:#be9166; */
+    background: wheat;
 }
 
 *{
@@ -24,7 +29,7 @@ body{
     margin-top: 1rem;
     display: inline-block;
     padding: .8rem 3rem;
-    background:var(--brown);
+    background:var(--lust);
     color:#fff;
     font-size:1.7rem;
     cursor: pointer;
@@ -89,7 +94,7 @@ section{
     left: 0;
     right: 0;
     z-index:1000;
-    background: var(--brown);
+    background: var(--chocolate);
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -202,7 +207,7 @@ section{
     box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.7);
     border:0.1rem solid rgba(0,0,0,0.7);
     text-align: center;
-    background: var(--brown);
+    background: var(--chocolate);
     font-size:2rem;
     color: #fff;
     cursor: pointer;
@@ -343,7 +348,7 @@ section{
   }
 
 .products .box-container .box .icons a:hover{
-    background: var(--brown);
+    background: var(--chocolate);
     color:#fff;
 }
 
@@ -376,7 +381,7 @@ section{
 
   .products .box-container .box .content .stars i {
     font-size: 1.7rem;
-    color: var(--brown);
+    color: var(--chocolate);
   }
 
 .about{
@@ -464,7 +469,7 @@ section{
 }
 
 .gallery .box-container .box .icons a:hover{
-    color: var(--brown);
+    color: var(--chocolate);
 }
 
 
@@ -484,7 +489,7 @@ section{
     background: #fff;
 }
 .info-container .info:hover{
-    background: var(--brown);
+    background: var(--lust);
 }
 
 .info-container .info img{
@@ -592,7 +597,7 @@ section{
 }
 
 .blogs .box-container .box .content .icons a:hover{
-    color:var(--brown);
+    color:var(--chocolate);
 }
 
 .blogs .box-container .box .content .icons a i{
@@ -630,7 +635,7 @@ section{
     width:6rem;
     line-height: 6rem;
     font-size: 2.5rem;
-    background: var(--brown);
+    background: var(--chocolate);
     color:#fff;
     border-radius: 50%;
 }
@@ -700,7 +705,7 @@ section{
 }
 
 .footer{
-    background:var(--brown);
+    background:var(--chocolate);
 
 }
 
@@ -760,7 +765,7 @@ section{
 
 .credit{
     text-align: center;
-    background:var(--brown);
+    background:var(--chocolate);
     color: #000;
     font-size:2rem;
 }
@@ -822,7 +827,7 @@ section{
     .header .navbar a{
         margin: 1.5rem;
         padding:1.5rem;
-        background:var(--brown);
+        background:var(--chocolate);
         font-size: 2rem;
         display: block;
         border-radius: .5rem;
